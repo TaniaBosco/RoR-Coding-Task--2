@@ -3,7 +3,7 @@ Demo::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
 
- config.action_mailer.default_url_options = { :host => 'young-garden-6609.herokuapp.com'} 
+ config.action_mailer.default_url_options = { :host => 'obscure-caverns-6350.herokuapp.com'} 
  #config.action_mailer.default_url_options = { :host => '10.3.0.163:3000' }
   # Code is not reloaded between requests
   config.cache_classes = true
