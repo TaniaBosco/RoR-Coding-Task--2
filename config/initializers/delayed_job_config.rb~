@@ -1,0 +1,9 @@
+Delayed::Worker.destroy_failed_jobs = false
+
+Delayed::Worker.backend = :data_mapper
+Delayed::Worker.backend.auto_upgrade!
+Delayed::Worker.sleep_delay = 60
+Delayed::Worker.max_attempts = 3
+Delayed::Worker.max_run_time = 1.minutes
+Delayed::Worker.read_ahead = 10
+Delayed::Worker.delay_jobs = !Rails.env.test?

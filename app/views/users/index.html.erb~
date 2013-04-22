@@ -1,0 +1,2 @@
+<%= link_to "SIGN UP", new_user1_registration_path %>
+<%= link_to "SIGN IN", new_user1_session_path %> 

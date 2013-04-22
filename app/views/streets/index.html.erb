@@ -1,0 +1,15 @@
+<html>
+<% if @flag==false%>
+ <% if @name_address==false%>
+        Canit locate you
+ <% else%>
+     <% if @empty==true%>
+          Sorry, no reuslts found
+     <% else%>
+           <%= @name_address %>
+     <% end%>
+<% end%>
+<% else %>
+      Invalid Parameter
+<% end%>
+</html>
