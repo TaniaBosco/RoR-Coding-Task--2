@@ -4,8 +4,8 @@
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class with default "from" parameter.
-  config.encryptor = :md5
-  config.mailer_sender = "taniabosco.r@gmail.com"
+  #config.encryptor = :md5
+  config.mailer_sender = "testrails4@gmail.com"
 
   # Configure the class responsible to send e-mails.
   # config.mailer = "Devise::Mailer"

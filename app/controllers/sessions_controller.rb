@@ -5,7 +5,7 @@ destroy method is used for sign out.Sign out from the current user by making aut
 =end
 class SessionsController < Devise::SessionsController
   	def create
-               		if request.post? and ( params[:email] and params[:password] ) 
+               		if (params[:email] and params[:password]) 
      				           begin
           				        params[:password] = Digest::MD5.hexdigest(params[:password])
           				        user = User1.find_by_email_and_encrypted_password!(params[:email],params[:password])
@@ -23,7 +23,7 @@ class SessionsController < Devise::SessionsController
                   end
         end
 	def destroy
-                     if request.post? and ( params[:authentication_token]) 
+                     if (params[:authentication_token]) 
       		           begin
         	                user = User1.find_by_authentication_token(params[:authentication_token])
                                 if(user.nil?)

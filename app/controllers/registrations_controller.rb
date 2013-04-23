@@ -4,9 +4,11 @@ confirmation mail by making confirmation token NULL and setting authentication t
 =end
 class RegistrationsController < Devise::RegistrationsController
   	def create
-  		if request.post?
+  		if (params[:email] and params[:password])
      		begin
+
         		user = User1.create!(:email => params[:email], :password => params[:password])
+            
                		    render :json => {":response" => "success", ":message" => "Please activate account via email"}
            		rescue Exception => e
                			render :json => {:data => nil, :message => e.message}         

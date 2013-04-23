@@ -1,6 +1,6 @@
 Demo::Application.configure do
 
-   config.action_mailer.default_url_options = { :host => '10.3.0.163:3000' }
+   config.action_mailer.default_url_options = { :host => "localhost:3000" }
   #config.action_mailer.delivery_method = :smtp
   #config.action_mailer.smtp_settings = {:address => "localhost", :port => 1025}
   # Settings specified here will take precedence over those in config/application.rb
@@ -42,8 +42,8 @@ Demo::Application.configure do
    :address              => "smtp.gmail.com",
    :port                 =>  587,
    :domain               => 'www.gmail.com',
-   :user_name            => 'taniabosco.r@gmail.com',
-   :password             => 'iloveyoujesus',
+   :user_name            => 'testrails4@gmail.com',
+   :password             => 'railstest4',
    :authentication       => 'plain',
    :enable_starttls_auto => true  }
 

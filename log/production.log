@@ -803,3 +803,332 @@ Processing by StreetsController#index as HTML
   Parameters: {"authentication_token"=>"AAmPDUCn5xKc7BzXUnA7", "search"=>"hospital"}
   Rendered streets/index.html.erb within layouts/application (0.2ms)
 Completed 200 OK in 1961ms (Views: 2.0ms | ActiveRecord: 486.2ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 15:31:46 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"tania@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"tania@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (2.8ms)
+
+Sent mail to tania@qburst.com (3046ms)
+Completed 200 OK in 3331ms (Views: 0.2ms | ActiveRecord: 57.2ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 15:33:56 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"tania@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"tania@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (2.9ms)
+
+Sent mail to tania@qburst.com (3710ms)
+Completed 200 OK in 4033ms (Views: 0.2ms | ActiveRecord: 24.5ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 15:39:24 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"tania@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"tania@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (2.9ms)
+
+Sent mail to tania@qburst.com (3176ms)
+Completed 200 OK in 3476ms (Views: 0.2ms | ActiveRecord: 59.3ms)
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 15:39:44 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"tania@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"tania@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (0.3ms)
+
+Sent mail to tania@qburst.com (3183ms)
+Completed 200 OK in 3239ms (Views: 0.2ms | ActiveRecord: 43.7ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 15:58:38 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (2.8ms)
+
+Sent mail to manisha@qburst.com (3194ms)
+Completed 200 OK in 3447ms (Views: 0.3ms | ActiveRecord: 32.0ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 15:59:41 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (2.8ms)
+
+Sent mail to manisha@qburst.com (3093ms)
+Completed 200 OK in 3371ms (Views: 0.3ms | ActiveRecord: 59.3ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:02:22 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (2.9ms)
+
+Sent mail to manisha@qburst.com (3019ms)
+Completed 200 OK in 3408ms (Views: 0.3ms | ActiveRecord: 162.9ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:03:16 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:03:36 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 30ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:03:50 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (2.8ms)
+
+Sent mail to manisha@qburst.com (3160ms)
+Completed 200 OK in 3421ms (Views: 0.4ms | ActiveRecord: 30.9ms)
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:04:29 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (0.4ms)
+
+Sent mail to manisha@qburst.com (3123ms)
+Completed 200 OK in 3182ms (Views: 0.2ms | ActiveRecord: 45.3ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:04:55 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:05:53 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 30ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:06:05 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (2.9ms)
+
+Sent mail to manisha@qburst.com (3021ms)
+Completed 200 OK in 3275ms (Views: 0.3ms | ActiveRecord: 37.0ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:12:00 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (2.8ms)
+
+Sent mail to manisha@qburst.com (3129ms)
+Completed 200 OK in 3407ms (Views: 0.3ms | ActiveRecord: 53.3ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:40:12 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (22.8ms)
+
+Sent mail to manisha@qburst.com (3136ms)
+Completed 200 OK in 3607ms (Views: 0.2ms | ActiveRecord: 52.8ms)
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:40:57 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (0.4ms)
+
+Sent mail to manisha@qburst.com (1690ms)
+Completed 200 OK in 1732ms (Views: 0.3ms | ActiveRecord: 27.6ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:42:59 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (22.4ms)
+
+Sent mail to manisha@qburst.com (2928ms)
+Completed 200 OK in 3329ms (Views: 0.2ms | ActiveRecord: 176.2ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:44:30 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (22.6ms)
+
+Sent mail to manisha@qburst.com (2838ms)
+Completed 200 OK in 3090ms (Views: 0.4ms | ActiveRecord: 30.6ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:48:47 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:49:32 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (22.4ms)
+
+Sent mail to manisha@qburst.com (3025ms)
+Completed 200 OK in 3288ms (Views: 0.2ms | ActiveRecord: 44.8ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:50:24 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"manisha@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"manisha@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (22.3ms)
+
+Sent mail to manisha@qburst.com (7490ms)
+Completed 200 OK in 7743ms (Views: 0.2ms | ActiveRecord: 32.5ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:51:46 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"soorajs@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"soorajs@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (22.3ms)
+
+Sent mail to soorajs@qburst.com (3154ms)
+Completed 200 OK in 3413ms (Views: 0.2ms | ActiveRecord: 40.6ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 16:52:31 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"soorajs@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"soorajs@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (22.3ms)
+
+Sent mail to soorajs@qburst.com (6727ms)
+Completed 200 OK in 6967ms (Views: 0.3ms | ActiveRecord: 27.5ms)
+Connecting to database specified by database.yml
+Started POST "/qlock/qburst/api/v1/get_places.json" for 127.0.0.1 at 2013-04-22 17:17:44 +0530
+Processing by StreetsController#index as JSON
+  Parameters: {"authentication_token"=>"xcyWcuFCTDurqz7vzmrQ", "search"=>"hospital", "street"=>{}}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 40ms (Views: 0.2ms | ActiveRecord: 1.4ms)
+Started POST "/qlock/qburst/api/v1/sign_in" for 127.0.0.1 at 2013-04-22 17:18:58 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"email"=>"soorajs@qburst.com", "password"=>"[FILTERED]", "session"=>{"email"=>"soorajs@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 25ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+Started POST "/qlock/qburst/api/v1/sign_up" for 127.0.0.1 at 2013-04-22 17:19:16 +0530
+Processing by RegistrationsController#create as HTML
+  Parameters: {"email"=>"tania@qburst.com", "password"=>"[FILTERED]", "registration"=>{"email"=>"tania@qburst.com", "password"=>"[FILTERED]"}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/mailer/confirmation_instructions.html.erb (22.8ms)
+
+Sent mail to tania@qburst.com (7251ms)
+Completed 200 OK in 7479ms (Views: 0.3ms | ActiveRecord: 32.8ms)
+Started GET "/user1s/confirmation?confirmation_token=ikRYFRU1AkykWpdUz2Su" for 127.0.0.1 at 2013-04-22 17:19:54 +0530
+Processing by Devise::ConfirmationsController#show as HTML
+  Parameters: {"confirmation_token"=>"ikRYFRU1AkykWpdUz2Su"}
+Redirected to http://localhost:3000/posts/display
+Completed 302 Found in 211ms (ActiveRecord: 166.2ms)
+Started GET "/posts/display" for 127.0.0.1 at 2013-04-22 17:19:54 +0530
+Processing by PostsController#display as HTML
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-04-22 17:19:54 +0530
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2013-04-22 17:19:54 +0530
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started POST "/qlock/qburst/api/v1/sign_in" for 127.0.0.1 at 2013-04-22 17:20:13 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"email"=>"tania@qburst.com", "password"=>"[FILTERED]", "session"=>{"email"=>"tania@qburst.com", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/posts/display
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 37ms (ActiveRecord: 33.0ms)
+Started GET "/posts/display" for 127.0.0.1 at 2013-04-22 17:20:13 +0530
+Processing by PostsController#display as HTML
+  Parameters: {"post"=>{}}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+Started POST "/qlock/qburst/api/v1/get_places.json" for 127.0.0.1 at 2013-04-22 17:21:22 +0530
+Processing by StreetsController#index as JSON
+  Parameters: {"authentication_token"=>"MoFAN3gnxyNRn9Rxcfnd", "search"=>"hospital", "street"=>{}}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 2130ms (Views: 0.6ms | ActiveRecord: 470.9ms)
+Started POST "/qlock/qburst/api/v1/get_places" for 127.0.0.1 at 2013-04-22 17:21:33 +0530
+Processing by StreetsController#index as HTML
+  Parameters: {"authentication_token"=>"MoFAN3gnxyNRn9Rxcfnd", "search"=>"hospital", "street"=>{}}
+WARNING: Can't verify CSRF token authenticity
+  Rendered streets/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2030ms (Views: 40.5ms | ActiveRecord: 483.9ms)

@@ -3,16 +3,16 @@ Demo::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
 
- config.action_mailer.default_url_options = { :host => 'obscure-caverns-6350.herokuapp.com'} 
- #config.action_mailer.default_url_options = { :host => '10.3.0.163:3000' }
+ config.action_mailer.default_url_options = { :host => 'boiling-crag-6932.herokuapp.com'} 
+ #config.action_mailer.default_url_options = { :host => 'localhost:3000' }
   # Code is not reloaded between requests
   config.cache_classes = true
   config.action_mailer.smtp_settings = {
    :address              => "smtp.gmail.com",
    :port                 =>  587,
    :domain               => 'www.gmail.com',
-   :user_name            => 'taniabosco.r@gmail.com',
-   :password             => 'iloveyoujesus',
+   :user_name            => 'testrails4@gmail.com',
+   :password             => 'railstest4',
    :authentication       => 'plain',
    :enable_starttls_auto => true  }
   # Full error reports are disabled and caching is turned on

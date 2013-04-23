@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130417083342) do
+ActiveRecord::Schema.define(:version => 20130422120417) do
 
   create_table "delayed_jobs", :force => true do |t|
     t.integer  "priority",   :default => 0
@@ -36,9 +36,9 @@ ActiveRecord::Schema.define(:version => 20130417083342) do
     t.datetime "updated_at",         :null => false
     t.string   "address"
     t.string   "name"
-    t.string   "Search"
     t.float    "original_longitude"
     t.float    "original_latitude"
+    t.string   "search"
   end
 
   create_table "students", :force => true do |t|

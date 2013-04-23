@@ -4,13 +4,15 @@ require Rails.root.join('lib', 'devise', 'Encryptors', 'md5')
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,:encryptable,:confirmable,
-         :recoverable, :rememberable, :trackable, :validatable,:token_authenticatable
+         :recoverable, :rememberable, :trackable, :validatable,:token_authenticatable, :encryptor => :md5
 PASSWORD_REGEX = /^[a-f0-9]{32}$/i
 validates :password, :format => PASSWORD_REGEX
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :remember_me
   # attr_accessible :title, :body
+
+  has_and_belongs_to_many :streets
 def password_salt
   'no salt'
 end
